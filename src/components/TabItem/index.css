@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.tab-item {
+  padding-right: 0;
+}
+.tab-btn {
+  background-color: transparent;
+  border-style: solid;
+  border-width: 0px;
+  border-bottom: 1px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+.active-tab-btn2 {
+  border-bottom: 3px solid #dfe2e5;
+}
+.active-tab-btn {
+  border-bottom: 2px solid #0b69ff;
+  color: #0b69ff;
+}

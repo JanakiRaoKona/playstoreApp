@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #fff1eb, #dfe2e5, #ace0f9);
+  height: 100vh;
+  padding: 10px;
+}
+.search-icon-image {
+  height: 20px;
+  margin: 5px;
+}
+.search-container {
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+}
+.input-bar {
+  border-style: solid;
+  border-width: 0px;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1e293b;
+}
+.search-container-outside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabs-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px;
+}
+.play-store-apps {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 65vh;
+  overflow-y: auto;
+}
+.main-heading {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+}
